@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FORMS</title>
+        <link rel="stylesheet" href="./forms.css" />
+    </head>
+    
+    <body>
+        <div class="nav">
+        <nav class="top-nav">
+            <a href="../html_lessons1/index.html" target="_blank">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="#students">Students</a>
+            <a href="forms.html">Application</a>
+        </div>
+        <h1>Forms</h1>
+        <!-- People Information -->
+        <form action="">
+            <div class="people-information">
+            <section>
+                <label for="first-name">Name : </label>
+                <input type="text" id="first-name" name="firstname" placeholder="isminizi giriniz" required />
+            </section>
+            <br />
+            <!-- Mail -->
+            <section>
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" placeholder="Mail adresinizi giriniz" required />
+            </section>
+            <br />
+            <!-- Password -->
+            <section>
+                <label for="password">Password : </label>
+                <input type="password" name="password" id="password" minlength="9" placeholder="Minimum 9 karakter giriniz" />
+            </section>
+            <br />
+            <!-- Age -->
+            <section>
+                <label for="age">Age : </label>
+                <input type="number" name="age" id="age" min="" max="100" />
+            </section>
+            <br />
+        </div>
+        
+            <!--  Gender Radio -->
+            <section class="gender" >
+                <label for="gender">Gender :</label>
+                <label for="male"></label>Male
+                <input type="radio" name="gender" id="gender" />
+                <label for="female"></label>Female
+                <input type="radio" name="gender" id="gender" />
+            </section>
+            <br />
+            
+        
+            <!--  Language Checkbox -->
+            <section class="language">
+                <label for="language">Language :</label>
+
+                <input type="checkbox" name="languages" value="English" id="languages" />English
+                <input type="checkbox" name="languages" value="English" id="languages" />Spanish
+                <input type="checkbox" name="languages" value="English" id="languages" />Francais
+                <input type="checkbox" name="languages" value="English" id="languages" />Dutch
+            </section>
+            <br />
+            <!-- Date -->
+            <section>
+                <label for="dob">Dogum Tarihi : </label>
+                <input type="date" name="dob" id="dob" min="2005-01-01" />
+            </section>
+            <br />
+            <!-- Select  -->
+            <label class="bolge" for="bolge">Bolgeniz : </label>
+            <select  name="bolge" id="bolge">
+                <option value="Marmara">Marmara</option>
+                <option value="Ege">Ege</option>
+                <option value="Ic Anadolu">Ic Anadolu</option>
+                <option value="Karadeniz">Karadeniz</option>
+                <option value="Dogu">Dogu</option>
+            </select>
+            <br />
+            <br />
+            
+            <!-- Text Area  -->
+            <section>
+                <label for="yorum">Mesajinizi Giriniz :</label><br /><br />
+                <textarea name="yorum" id="yorum" cols="30" rows="10" placeholder="Minimum 60 Kelime yazmaniz gerekmektedir." minlength="5"></textarea>
+                <br /><br />
+            </section>
+            <!-- Buttons -->
+            <section>
+                <input class="submit" type="submit" id="submit" />
+                <input  class="reset" type="reset" id="reset" />
+            </section>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3104.0240289307603!2d-77.2233188237246!3d38.92342827171849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b65d9823afdf03%3A0x137cc5920e96f259!2sClarusway!5e0!3m2!1str!2sge!4v1695296610946!5m2!1str!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+</html>

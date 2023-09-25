@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.top-h1 {
+    margin: 50px 0 20px 0;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.top-nav a:hover {
+    background-color: rgb(212, 9, 9);
+    opacity: 0.9;
+}
+
+#courses h2 {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#courses article {
+    margin: 20px 20px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+#courses {
+    width: 50%;
+    align-items: center;
+    display: inline-block;
+}
+
+#students {
+    margin: 20px;
+}
+
+#students img {
+    margin: 20px 5px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(119, 17, 17, 0.56) 0px 22px 70px 4px;
+}

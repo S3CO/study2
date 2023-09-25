@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+}
+
+h1 {
+    margin: 20px 20px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.top-nav a:hover {
+    background-color: rgb(212, 9, 9);
+    opacity: 0.9;
+}
+
+.people-information label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    margin: 0 20px;
+}
+
+.gender label {
+    display: inline-block;
+    width: 60px;
+}
+
+.language label {
+    display: inline-block;
+    width: 100px;
+}
+
+.bolge {
+    display: inline-block;
+    width: 120px;
+}
+
+.submit {
+    background-color: rgb(241, 245, 241);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(4, 82, 39);
+}
+
+.reset {
+    background-color: rgb(246, 245, 245);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(200, 9, 9);
+}
+
+.submit:hover {
+    background-color: rgb(7, 115, 38);
+    color: rgb(253, 253, 253);
+}
+
+.reset:hover {
+    background-color: rgb(236, 8, 8);
+    color: rgb(245, 248, 246);
+}
+
+iframe {
+    position: absolute;
+    left: 50%;
+    bottom: 200px;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+}
